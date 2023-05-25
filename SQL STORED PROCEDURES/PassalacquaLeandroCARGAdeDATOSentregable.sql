@@ -1,0 +1,105 @@
+insert into cliente (Nombre,Apellido, Documento, Cuit_Cliente, Pais, Provincia, Direccion, Email, telefono)
+values('Leandro', 'Passalacqua', '28488094', 2028, 'argentina', 'CABA', 'micasa 664 depto 2', 'leandro2311@gmail.com', '1566651102'),
+('Sebastian', 'Passalacqua', '33111222', 203311, 'argentina','Caba', 'Su casa ET 123 depto 2', 'sebaspassalacqua@gmail.com', '1122233325'),
+('Mauro', 'Passalacqua', '12345678', 2012345, 'argentina', 'CABA', 'Once 123', 'mauropassa@gmail.com','46417264'),
+('Susana', 'Prystupa', '11258756', 456546, 'Argentina','CABA', 'Carlos encina', 'Susanaprys@gmail.com', '123456'),
+('Daniel', 'Passalacqua', '123456789', 12714756, 'Argentina', 'CABA', 'Carlos Encina', 'DanPassa@queteimporta.com','123546'),
+('Laura','Rojas','291233',2029133,'argentina','CABA','Abasto 678','laura@spf.ml','789123'),
+('Karen','Caseti','42123',2042123,'Argentina','CABA','yerbal 4567','keru@yo.org','1565889'),
+('Nicolas','Caseti','412234',20412234,'Argentina','Caba','yerbal 9875','nico@gool.org','156879'),
+('Daniel','Figueroa','2212346',202212346,'Argentina','Tucuman','san ruben 123','dany@aisa.org','123456'),
+('Bruno','Kano','39123',239123,'Argentina','BS AS','caseros 456','brunoK@algo.com','123459'),
+('Andres','Cano','34123',2034123,'Argenina','Caba','Liniers 123','Anresc@afip.com','456789'),
+('Pablo','Gallo','24456',2024456,'Argentina','Caba','Mercedez 3580','pablogallo@arcolor.com','753159'),
+('Leonardo','davico','24789',2024789,'Argentina','Caba','ramon falcon 4582','leodavico@ecep.edu','7534284'),
+('Benito','Bongarra','42346',2042346,'Argentina','Caba','tinogasta 2580','benito@yo.edu.ar','4567826'),
+('Rafael','Saenz','42826',2042826,'Argentina','Caba','Marco sastre 2423','rafa@educar.efu','741265');
+
+insert into empleado(nombre, apellido, Usuario, Clave_usuario, direccion, fecha_de_ingreso, cargo, sucursal, telefono, e_mail_empleado, sueldo)
+values('LEANDRO','PASSALACQUA','LEADIRECTOR','CLAVE123','Carlos Encina 664',23/11/2000,'Gerente','Casa Central','156651102','leandro@empresa.com', 200000),
+('SEBA','PASSA','SEBCONTADOR','CLAVE321','Carlos Encina 664',25/01/2001,'Contador','Casa Central','15789456','seba56@empresa.com', 150000),
+('PEPE','Rodriguez','Empleado1','CLAVE456','Av rivadavia 10500',20/10/2002,'Empleado','Casa Central','1566887','pepe@empresa.com', 100000),
+('Mauricio','Macri','maurim','CLAVE123','balcarse 50',27/05/2003,'empleado','Casa Central','15456102','mauri@empresa.com', 100000),
+('REBECA','LOPEZ','REBE1CA','CLAVE102','acoite 50',24/21/2010,'empleado','Casa Central','1567412','rebe@empresa.com', 100000),
+('LISANDRO','PAZ','LICHA24','CLAVE753','rivadavia 4567',29/11/2015,'empleado','Casa Central','15741852','lisandrop@empresa.com', 100000),
+('MARCOS','ROJAS','MARK25','CLAVE965','pueyrredon 456',26/09/2011,'empleado','Casa Central','152258702','markventas@empresa.com', 150000),
+('SOFIA','BENELLI','SOFISEN','CLAVE45A4','balcarse 50',23/03/2005,'empleado','Casa Central','15987456','sofiventas@empresa.com',150000),
+('ANAHI','SCHEL','ANASCHE','CLAVE4as56a','tuyuti 450',22/03/2006,'empleado','Casa Central','159456546','anahiiventas@empresa.com',150000),
+('MARIO','SCHACHER','MARIOALEM','CLAVE45A4','Venezuela 4789',02/03/2005,'empleado','Casa Central','15988888','marioventas@empresa.com',150000),
+('ALFONSO','ELSABIO','ALFONSOX','CLAVE4df45','madrid 456',21/07/2015,'empleado','Casa Central','1591216','alfonsoventas@empresa.com',150000),
+('PULIO','ESCIPION','AFRICANUS','CLAVE45A4','Zama 4550',24/01/2011,'empleado','Casa Central','15545456','pulioventas@empresa.com',100000),
+('ANIBAL','BARCA','ANIBALCARTAGO','CLAVEELEFANTE','Cartago 330',26/04/2014,'empleado','Casa Central','1591234922','anibalventas@empresa.com',10000),
+('NAPOLEON','BONAPARTE','REXFRANCIA','CLAVE1776','Francia 1786',01/06/2022,'empleado','Casa Central','15987654','Napo-ventas@empresa.com',150000),
+('ALEJANDRO','MAGNO','MACEDONIAREX','CLAVEOPLON','Gaugamela 350',28/01/2003,'empleado','Casa Central','15987456','sofiventas@empresa.com',150000)
+;
+
+insert into proveedor(Company_name,Cuit_proveedor, direccion_proveedor, telefono_proveedor, email_proveedor, home_page) 
+values ('Apple s.a.',3012345,' One Apple Park Way; Cupertino, CA 95014, U.S.A.','8002752273','proveedores@apple.com','apple.com'),
+('Samsung s.a.',29456,'Bouchard 810 CABA',' 08005557267','proveedores@samsung.com.ar','samsung.com.ar'),
+('motorola s.a.',29789,'Av. Roca 1000 CABA','800657789','proveedores@motorola.com.ar','motorola.com.ar'),
+('Xiaomi s.a.',336987,'Av. Juana Manso 314','800473288','xiaomishop.com.ar','xiaomi.com.ar'),
+('Evga s.a.',30123,'Av. Leandro N. Alem 305','800789654','proveedores@evga.com.ar','Evga.com.ar'),
+('Asus s.a.',29852,'Av. Cabildo 456','800963741','proveedores@asus.com.ar','Asus.com.ar'),
+('Msi .s.a',28741,'Acoite 515','800159753','proveedores@msi.com.ar','Msi.com.ar'),
+('Lenovo s.a.',29744,'Av. de Mayo 258','866426223','proveedores@lenovo.com','lenovo.com.ar'),
+('Sony s.a.',25741,'Av. 9 de Julio 456','800693741','proveedores@sony.com.ar','sony.com.ar'),
+('LG argentina s.a.',27456,'Av. Juana Manso 654','800966333','proveedores@lg.com.ar','LGargentina.com.ar'),
+('Intel Argentina s.a.',25741,'Av. Libertador 852','800123789','proveedores@intel.com.ar','intel.com'),
+('Amd argentina s.a.',290789,'Av. de Mayo 789','800456123','proveedores@amd.com.ar','Amd.com.ar'),
+('Nvidia s.a.',30455,'Av. Juana Manso 789','800753159','proveedores@nvidia.com.ar','Nvidia.com.ar'),
+('Microsoft s.a.',25459,'Carlos Della Paollera 261','800777333','proveedores@microsoft.com.ar','Microsoft.com'),
+('Allienware s.a',39852,'Juana Manso 1000','800777999','proveedores@allienware.com.ar','Allienware.com')
+;
+
+INSERT INTO producto_stock (id_proveedor, Producto_nombre, Categoria, stock_unidades, precio_unidad ) 
+values(1,'Iphone 14','smartphone',100,1000),
+(1,'Ipad 9inchs','Tablet',70,800),
+(2,'Galaxy s23', 'SmartPhone', 100,900),
+(3,'Edge', 'SmasrtPhone', 100,700),
+(4,'Readmi Note 4', 'SmartPhone',50,700),
+(5, 'Geforce RTX 4090TI','Video Card',50,1700),
+(5,'Geforce RTX 4080','Video Card',50,1200),
+(5, 'Power Supply 850W', 'Fuente de alimentacion',50,500),
+(6,'Motherboard ROX STRIG B660','Motherboard',50,700),
+(7,'MSI pro B660','Motherboard',50,600),
+(8,'Lenovo Legion Slim 7i 7gen','Notebook',40,2000),
+(8,'Lenovo Legion 5i 7gen','Notebook',40,1500),
+(11,'Intel Core i12', 'CPU',100,1500),
+(15,'AlienWare 15 L17', 'Notebook',40,2500),
+(15,'AlienWare Aurora R14','Pc Gamer', 20, 3000)
+;
+
+INSERT INTO pedidos (id_cliente, id_empleado, fecha_orden, sku_nro_producto_vendido,Producto_nombre,unidades_ordenadas, fecha_envio, direccion_envio) 
+values(1,2,'2022-11-23',6,'GeForce RTX 4080',1,'2022-11-23','mi casa 123'),
+(7,1,'2022-11-23',15,'AlienWare Aurora R14',1,'2022-11-23','Su casa 321'),
+(8,5,'2022-12-01',11,'Lenovo Legion Slim i7', 1,'2022-12-02','yerbal 5550'),
+(12,8,'2022-12-02',1,'Iphone 14',1,'2022-12-03','rivadavia 12500 2a'),
+(10,9,'2022-12-02',2,'Ipad',1,'2022-12-02','Tinogasta 2580'),
+(13,5,'2022-12-03',5,'Readmi Note 4',1,'2022-12-03','Yrigoyen 458'),
+(14,9,'2022-12-04',3,'Samsung Galaxy',3,'2022-12-04','larrazabal 1356'),
+(3,10,'2022-12-04',2,'Ipad 9inchs',1,'2022-12-04','Emilio Castro 18988'),
+(2,2,'2022-12-04',11,'Lenovo Legion Slim 7i',1,'2022-12-04','Carlos Encina 667'),
+(9,7,'2022-12-04',14, 'Alienware 15 L17',1,'2022-12-04','yerbal 515'),
+(4,13,'2022-12-04',5,'Readmi Note 4',1,'2022-12-04','Garcia de Cossio 4567'),
+(10,12,'2022-12-04',8,'Power Supply 850w',2,'2022-12-05','Lisandro de la Torre 234'),
+(12,15,'2022-12-05',9,'Motherboard ROX STRIG B660',3,'2022-12-05','Cnel Ramon L. Falcon 4567'),
+(4,7,'2022-12-05',3,'Galaxy s23',1,'2022-12-05','leguizamon 150'),
+(11,9,'2022-12-05',7,'MSI pro B660',1,'2022-12-05','Bolaños 195'),
+(7,1,'2022-12-06',6,'Geforce RTX 4090TI',2,'2022-12-05','Carlos Encina 664');
+
+INSERT INTO envio (orden_id,numero_seguimiento,empresa_de_transporte,telefono,e_mail) 
+values (1,111,'El Aguila', '333444', 'elaguila@transport.com'),
+(2,112,'El Aguila', '333444', 'elaguila@transport.com'),
+(3,113,'El rapido', 111222,'elrapido@transporte.com'),
+(4,114,'El Aguila', '333444', 'elaguila@transport.com'),
+(5,115,'The Turtle','4445555','laturtle@transp.com'),
+(6,116,'El Leon transport', '777999','leono@transporte.com'),
+(7,117,'la paloma mensajera s.a.','7894566','luis@palomo.com'),
+(8,118,'El Leon transport', '777999','leono@transporte.com'),
+(9,119,'The Turtle','4445555','laturtle@transp.com'),
+(10,120,'El rapido', 111222,'elrapido@transporte.com'),
+(11,121,'la paloma mensajera s.a.','7894566','luis@palomo.com'),
+(12,122,'El Aguila', '333444', 'elaguila@transport.com'),
+(13,123,'Lgion x transport', '10101111', 'gauis@legionx.mil'),
+(14,124,'El rapido', 111222,'elrapido@transporte.com'),
+(15,125,'El Leon transport', '777999','leono@transporte.com');
